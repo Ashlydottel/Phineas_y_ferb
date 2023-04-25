@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="assets/images/tanjiro.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon"
+    href="https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Phineas_and_Ferb_logo.svg/1200px-Phineas_and_Ferb_logo.svg.png"
+    type="image/x-icon">
+  <title> Phineas y Ferb</title>
+</head>
+<style>
+  .container-fluid {
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgba(72, 75, 204, 0.377);
+    overflow-x: hidden;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgba(50, 62, 231, 0.3);
+
+  }
+
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 550px !important;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #titulo {
+    text-align: center !important;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .Intro {
+    font-size: 20px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .social {
+    color: #fff;
+    /* Color del texto */
+  }
+
+  .social i {
+    color:  #047cfc ;
+    /* Color de fondo de los iconos */
+  }
+
+  #footer a {
+    color: white;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-fluid {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 2px;
+    }
+
+    .carousel-inner .carousel-item img {
+      height: 200px !important;
+      width: 100%;
+      object-fit: fill;
+      object-position: center;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+
+    .Intro {
+      font-size: 18px;
+    }
+
+    .card {
+      margin: 2px;
+      width: 100%;
+
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .card-title {
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .card-text {
+      font-size: 18px;
+      text-align: justify;
+    }
+
+
+    iframe {
+      width: 100%;
+      height: 30vh;
+      border-radius: 15px;
+    }
+
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #footer a {
+      color: white;
+    }
+
+  }
+</style>
+
+<body>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Phineas y Ferb</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="principal.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sobre_mi.html">Sobre Mi</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Fin header-->
+    <!--Main- CARROUSEL-->
+    <main id="main">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block rounded" src="img\FB-1.jpg" alt="FB-1">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img\FB-2.jpg" alt="FB-2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img\FB-3.jpg" alt="FB-3">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img/FB-4.webp" alt="FB-4">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img\FB-5.jpg" alt="FB-5">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="img\FB-6.jpg" alt="FB-6">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img\FB-7.jpeg" alt="FB-7">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block  rounded" src="img\FB-8.jpg" alt="FB-8">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img\FB-9.webp" alt="FB-9">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img\FB-10.webp" alt="FB-10">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img\FB-11.jpg" alt="FB-11">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block  rounded" src="img\FB-12.jpeg" alt="FB-12">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="img\FB-13.jpg alt=" alt="FB-13">
+          </div>
+
+
+        </div>
+      </div>
+    </main>
+    <br>
+    <!--Fin Main-->
+    <div class="mt-2 m-1 text-dark rounded text-center p-1">
+      <h1>Phineas y Ferb:</h1>
+      <p class="Intro"> Phineas Flynn y su ingenioso hermanastro, Ferb Fletcher, están decididos a acabar con el
+        aburrimiento
+        y disfrutar de cada uno de sus 104 días de vacaciones de verano. Entre sus divertidos proyectos están la
+        construcción
+        de una montaña rusa a tamaño real, convertirse en la gran sensación de la música pop de un día para otro, la
+        construcción
+        de una playa en su patio trasero donde poder realizar competiciones de surf o un viaje en el tiempo a la época
+        del Jurásico.
+        En sus escapadas les acompaña Perry el Ornitorrinco, una mascota aparentemente boba que, sin que ellos lo sepan,
+        tiene una doble vida.
+        En realidad es el agente secreto P, que lucha hábilmente contra el malvado Dr. Doofenshmirtz para salvar el
+        mundo. Mientras tanto, a su
+        hermana mayor Candace le horrorizan las payasadas de sus hermanos y se dedica a delatarles a su madre y su
+        padre, aunque nunca consigue
+        pillarles con las manos en la masa.
+      </p>
+
+      <p class="Intro"> La mayoría de los episodios tienen, como mínimo, un número musical. Aunque la serie se sirve un
+        poco de casi todos los géneros conocidos,
+        el más utilizado es el pop. El elemento musical es un añadido más que hace que esta serie de dibujos animados
+        sea entretenida para niños y
+        al mismo tiempo para adultos, pudiendo divertir y distraer a un amplio abanico de públicos.
+        <br>
+        Es una serie bien realizada, con unos diálogos originales y con un argumento fresco y divertido, a pesar de que
+        las historias se sostienen
+        sobre la misma base argumental: Phineas y Ferb se las ingenian para llevar a cabo un minucioso y alocado plan.
+        Actualmente es una de las
+        mejores series de animación que se emiten en la TDT, que puede hacer disfrutar tanto a los más pequeños como a
+        los mayores.
+      </p>
+      <p>
+
+        La serie está creada por Dan Povenmire ('Bob Esponja') y Jeff Marsh. Y los actores dobladores originales que
+        ponen a voz a
+        Phineas, Ferb y Candance son Vincent Martella ('The Walking Dead'), Thomas Brodie-Sangster ('Juego de Tronos') y
+        Ashley Tisdale ('Scary Movie 5')
+        respectivamente.
+      </p>
+
+      <!--Galeria Grupo Card #1- 1Ero-->
+      <h3 class="mb-3 pb-3 text-center">Phineas y Ferb</h3>
+      <div class="card-group">
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://media.tumblr.com/tumblr_lvm82pFIbE1qbcwts.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Phineas Flynn</h5>
+            <p class="card-text">Phineas Flynn es, junto a Ferb (su hermanastro),
+              uno de los personajes principales de la famosa serie de Disney Channel,
+              Phineas y Ferb. Él además tiene amigos que siempre lo ayudan como Buford,
+              Baljeet, e Isabella, quien tiene un secreto amoroso, es su "mejor amiga".</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://media1.giphy.com/media/KhOTZooQptGtG/giphy.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Ferb Fletcher</h5>
+            <p class="card-text">"Ferb" Fletcher es un niño británico que vive en la ciudad de Danville.
+              Es muy callado, pero no es tímido, al contrario, Ferb es muy valiente e inteligente (tiene un CI muy
+              elevado).
+              Ferb piensa rápido y es un genio mecánico y técnico y ademas le gusta tocar la guitarra. Gracias a esto,
+              él ha
+              construido, junto a Phineas muchos proyectos. Se le conoce como "Un hombre de pocas palabras".
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="https://i.gifer.com/j6V.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Candace Flynn</h5>
+            <p class="card-text">Candace Gertrude Flynn es una adolescente de 15 años de edad, es considerada una
+              protagonista de la serie,
+              ya que su actitud va en contra de las acciones de sus hermanos.
+              Su día, por lo general, consiste en tratar de pillar a sus hermanos con los inventos que hacen cada dia,
+              Linda Flynn; pero, en el
+              momento en que llega a ver lo que están haciendo, todo está perfectamente normal.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <!--Galeria Grupo Card #2 -->
+        <div class="card-group">
+          <div class="card m-1 p-2">
+            <img class="card-img-top"
+              src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/837a5a60-7c06-4363-b017-a95fab9b9d47/d590vtj-0f8508f3-b642-46a2-b4a6-54bb3801146d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgzN2E1YTYwLTdjMDYtNDM2My1iMDE3LWE5NWZhYjliOWQ0N1wvZDU5MHZ0ai0wZjg1MDhmMy1iNjQyLTQ2YTItYjRhNi01NGJiMzgwMTE0NmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.mwUId_lJRc16njNUIG0sh1poBRYhfFemk0ERgAl1Ad4"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Isabella García-Shapiro</h5>
+              <p class="card-text">Isabella García-Shapiro (con la voz de Alyson Stoner, en la versión original)es la
+                vecina de Phineas y Ferb,
+                siendo su mejor amiga.. También es la líder de las Exploradoras de la tropa 46231. Esta completamente
+                enamorada de Phineas Flynn.
+                <br>«Hola Phineas, ¿qué están/estáis haciendo? »
+                <br>−Isabella a Phineas
+              </p>
+
+
+
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://media.tenor.com/7lV8bMKMbjYAAAAC/vanesa-doofenshmirtz-vanesa.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Vanessa Doofenshmirtz</h5>
+              <p class="card-text">Vanessa Doofenshmirtz es la hija del malvado científico del área limitrofe, el Dr.
+                Heinz Doofenshmirtz
+                Es gótica y siempre viste de oscuro. Su objetivo es demostrarle a su madre que su padre es malvado, y
+                también que Perry es un agente secreto ,
+                aunque su madre no le cree. Ferb está enamorado de Vanessa, aunque ella también
+                tiene al parecer sentimientos amorosos por Ferb ya que las siguientes veces que lo ve le sonríe y al
+                parecer coquetea.
+              </p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="https://64.media.tumblr.com/tumblr_lvse0ar9TU1r24rlso1_r1_500.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Jeremy Johnson</h5>
+              <p class="card-text">Jeremy Johnson es el interés romántico de Candace y hermano mayor de Suzy. Tiene el
+                pelo rubio,
+                la estatura casi la de Candace y casi siempre esta en el señor sluchy debido a que el trabaja allí.
+                Muchas veces que Candace no quiere atrapar a Phineas y Ferb, es debido que a Jeremy le gustan las
+                construciones de ambos.
+                En el futuro, será el esposo de Candace..</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <!--Galeria Grupo Card #3- -->
+          <div class="card-group">
+            <div class="card m-1 p-2">
+              <img class="card-img-top" src="https://media.tenor.com/_Rhd5cCxNmQAAAAM/heroes.gif" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Linda Flynn-Fletcher</h5>
+                <p class="card-text">Linda Flynn-Fletcher es la madre de Phineas Flynn y Candace Flynn, y la madrastra
+                  de Ferb Fletcher.
+                  Está casada con Lawrence Fletcher, el padre de Phineas y Ferb. Ella es una madre estadounidense
+                  regular, a pesar de
+                  que toca en una banda de jazz de forma libre con la madre de Isabella y la madre de Jeremy Johnson.
+                </p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="https://64.media.tumblr.com/8d5098105623690f79d016fbfcb4ba6b/9c2477e04fc5512f-22/s640x960/e42c25274cd9066ddd9ec85fbe68e070137edde9.gif"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lawrence Fletcher</h5>
+                <p class="card-text">Lawrence Fletcher es el padre de Ferb Fletcher y padrastro de Phineas Flynn y
+                  Candace Flynn.
+                  Él esta casado con Linda Flynn. Conoció a Linda Flynn en un concierto de Love Händel. Es de
+                  procedencia británica,
+                  es un antropólogo, cosa que se puede apreciar cuando expone sobre el bastón de Wiskershire, siendo
+                  interrumpido por Linda.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="https://64.media.tumblr.com/fd8cfa16ab620039372f2ab52e94a38c/tumblr_ptlfw6MZJR1y7hyamo1_1280.png"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Betty Jo Flynn</h5>
+                <p class="card-text">UEs una mujer de alrededor de 70 años, pelirroja, igual que Linda, Candace y
+                  Phineas. Usa unos anteojos negros,
+                  nunca se los saca exepto cuando se descubre que fue campeona de patinaje y muestra los ojos para
+                  enojarse con la abuela de Jeremy,
+                  quien hizo trampa en la carrera hacia años. En el flashback de la historia se la muestra joven y sin
+                  anteojos. Tiene ojos azules.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
+            <!--Galeria Grupo Card #4--->
+            <div class="card-group">
+              <div class="card m-1 p-2">
+                <img class="card-img-top"
+                  src="https://64.media.tumblr.com/d5fd1b001ce4134100a0379ecd892368/d9e0269cb2848b99-12/s640x960/87813d773eed5daa34967d2c81471a72494efab8.gif"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Clyde Flynn</h5>
+                  <p class="card-text">Clyde Flynn (nacida Johnson) es el abuelo de Phineas, Ferb y Candace,
+                    el marido de Betty Jo Flynn y el padre de Linda Flynn-Fletcher
+                    y Tiana Webber.Clyde Flynn vive en bosques de Danville y es el anfitrión de "Camp Phineas y Ferb"
+                  </p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card m-1 p-2">
+                <img class="card-img-top"
+                  src="https://64.media.tumblr.com/65c64d20f67ff47b235b42113c85cbf8/787bfa6a372886c4-a5/s640x960/e5ea85495ffbf2101ef6218c2717961e04c6f650.gif"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Reginald Fletcher</h5>
+                  <p class="card-text">Reginald "Reg" Fletcher es el padre de Lawrence Fletcher y vive en Inglaterra
+                    junto a su mujer, son los abuelos de Ferb, Phineas y Candace.
+                    Este señor británico, vive a las afueras de Londres con su mujer, Winifred Fletcher, y su hijo y
+                    nietos van a verle muy a menudo.
+                    En la versión original americana, Reg habla con acento Cockney y en inglés antiguo</p>
+                  <pclass="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card m-1 p-2">
+                <img class="card-img-top"
+                  src="https://64.media.tumblr.com/ddbeb74d4c28aacaa107d53df82872ab/tumblr_oap4jwXDc01u654nuo3_540.gif"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Stacy Hirano</h5>
+                  <p class="card-text">Stacy Hirano es la mejor amiga de Candace Flynn, y de Jenny, aunque no tanto como
+                    de Candace.
+                    Normalmente habla con Candace por teléfono celular pocas veces esta en su casa. Ella es una
+                    compradora compulsiva y con poca capacidad de concentración,
+                    es muy cotilla se entera de todo lo que le pasa a Candace a través de sus amigos.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+
+
+              <!--Galeria Grupo Card #6--->
+              <div class="card-group">
+                <div class="card m-1 p-2">
+                  <img class="card-img-top"
+                    src="https://64.media.tumblr.com/637ba31e4d2bad43ffab9d7c970024f6/6db2a2b67278ea9d-85/s640x960/7441f9bd9d434ddd95dc5cfec2eb1c1fdb7effb8.gif"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Buford Van Stomm</h5>
+                    <p class="card-text">Buford Van Stomm es quien inventó las empanadas con pasas de uva,
+                      un asco, y un gran fan del anime de niñatas magicas.
+                      Suele unirse a las grandes ideas de Phineas y Ferb. También es porque le dejan jugar y participar
+                      en sus proyectos,
+                      por lo que trata bien a Phineas y Ferb.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card m-1 p-2">
+                  <img class="card-img-top" src="https://media.tenor.com/tmRLbaPfoMUAAAAC/baljeet-baljeetvibe.gif"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Baljeet Tjinder</h5>
+                    <p class="card-text">Baljeet Rai es un chico de la india. Baljeet es el mas estudioso de los amigos
+                      de Phineas y Ferb.
+                      Por lo general suele estar acompañado de Buford, el cual suele agredirlo o molestarlo; pero a
+                      pesar de ello, ambos son muy
+                      buenos amigos. Baljeet suele ser bastante organizado y preocupado, como se ha visto en varios
+                      episodios y suele estudiar bastante.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card m-1 p-2">
+                  <img class="card-img-top"
+                    src="https://64.media.tumblr.com/9791a1e049eb19d0afcd7f62df29948d/3904551a2f4e5450-a5/s640x960/f9f861406748d3875ccee21bf7d240c1704ee3b9.gif"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Irving Du Bois</h5>
+                    <p class="card-text">Irving, es el mayor fan de los chicos desde el principio de la serie.
+                      Tiene un álbum lleno de fotos de los proyectos de Phineas y Ferb, incluso un mechón de cabello de
+                      Ferb.
+                      En su cuarto tiene muchas fotos pegadas de Phineas y Ferb y sus proyectos.Está loco por los
+                      inventos de Phineas y Ferb.
+                      Tiene una fuerte obsesión con ellos y tiende a exagerar las cosas.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <!--Galeria Grupo Card #7--->
+                <div class="card-group">
+                  <div class="card m-1 p-2">
+                    <img class="card-img-top" src="https://2.bp.blogspot.com/-lUawv_knEAE/UaaJpb7F8QI/AAAAAAAAAfU/EBusQK6K9yA/s1600/tumblr_luhc76MQnp1qhz3hpo1_500.gif"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Perry el Ornitorrinco</h5>
+                      <p class="card-text">Perry el Ornitorrinco, con nombre en código Agente P,
+                         es la mascota de Phineas Flynn y Ferb Fletcher, quien, desconocidamente por sus dueños y familiares, vive una doble vida como agente 
+                         secreto para La Agencia, una organización del Gobierno Estadounidense de espías animales, sin un Buen Acronimo/sin un Acrónimo Chulo. 
+                         En La Agencia su jefe, y comandante, es el Mayor Monograma.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card m-1 p-2">
+                    <img class="card-img-top" src="https://media.tenor.com/Sh9_FuBH7NwAAAAC/phineas-and-ferb-major-monogram.gif" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Francis Monogram</h5>
+                      <p class="card-text">Mayor Francis Monograma, (Mayor Francis Monogram en España y Major Francis Monogram en E.E.U.U.) 
+                        es el Comandante oficial de la división de la OSAC/OSBA donde trabaja el Agente P; y le da sus misiones en cada episodio con la
+                         ayuda de Carl el Interno Doofenshmirtz le llama Mayor Monoceja.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card m-1 p-2">
+                    <img class="card-img-top" src="https://thumbs.gfycat.com/WatchfulSimilarAlaskanmalamute-size_restricted.gif"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Carl Karl</h5>
+                      <p class="card-text">Carl Karl es el cámara e informático de la Agencia, también es el ayudante del Mayor Monograma
+                         y un gran amigo suyo, este novato ingresó en la OSAC/OSBA para conseguir créditos universitarios.
+                          Carl es distraído y torpe, su falta de concentración le hace cometer errores. Carl es pedante, puntilloso, perfeccionista y,
+                           aunque es muy aplicado para los estudios, suele defraudar a su jefe..</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+
+                </div>
+
+
+                <br><br>
+                <!--Fin Galeria-->
+
+                <!--Galeria de Videos-->
+
+
+                <h3 id="titulo" class="text-center">De que trata Phineas y Ferb</h3>
+                <hr>
+
+                <div class="card-group">
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/gnnWcaLdyVc" title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">CANDACE CONTRA EL UNIVERSO | RESUMEN EN 10 MINUTOS</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/Rk_QlKFMEhg" title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+
+                    <div class="card-body">
+                      <h5 class="card-title">¿Cómo inicia y termina Phineas y Ferb? | Te Explico La Historia</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/beta1H0UCjg" title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">Phineas y Ferb: No tengo Ritmo
+                      </h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+
+                  <div class="card-group">
+                    <div class="card">
+                      <iframe src="https://www.youtube.com/embed/faCb2jqXCG4" title="YouTube video player"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                      <div class="card-body">
+                        <h5 class="card-title">Canción del verano | Phineas y Ferb
+                        </h5>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <iframe src="https://www.youtube.com/embed/G1-bZKtmwq" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                      <div class="card-body">
+                        <h5 class="card-title">Tuyo el Verano Es | Phineas y Ferb
+                        </h5>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <iframe src="https://www.youtube.com/embed/NZ_txGWYgSM" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                      <div class="card-body">
+                        <h5 class="card-title">PHINEAS Y FERB. La Película. ¡Un Nuevo amigo encontré! </h5>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+            </div>
+
+
+            <h3 id="titulo" class="text-center">Donde ver</h3>
+            <hr>
+            <!-- Boton Ver Serie-->
+
+            <div class="w-100 ">
+
+              <!-- Boton Ver Serie-->
+              <div class="text-center center-block">
+
+                <a href="https://www.disneyplus.com/es-419/series/phineas-y-ferb/1Vl0AKTYhC6U" target="_blank"
+                  class="btn btn-info btn-lg btn-block bg-primary" tabindex="-1" role="button" aria-disabled="true">Ver en Disney+</a>
+
+              </div>
+              <br>
+              <div class="text-center center-block">
+
+                <a href="https://dangotoons.net/phineas-y-ferb"
+                  target="_blank" class="btn btn-info btn-lg btn-block bg-primary" tabindex="-1" role="button"
+                  aria-disabled="true">De manera totalmente gratuita en Dangotoons
+                </a>
+
+              </div>
+              <br>
+              <!--Fin Boton Ver Serie-->
+
+
+              <!--Redes Sociales-->
+              <h3 class="text-center">Mis Redes Sociales</h3>
+              <hr />
+              <div class="text-center center-block">
+              <div class="social">
+                <a href="https://web.facebook.com/nicole.amenazzy.1" target="_blank"><i class="fa fa-facebook-square fa-3x social"></i></a>
+              </div>
+              
+              </div>
+              <hr />
+                       
+              <!--Fin Redes Sociales-->
+              <h4 class="text-center">Ashly Nicole<small>&copy; 2023. Todos los derechos reservados.</small></h4>
+                  <!--Footer-->
+                  <footer id="footer" class="pb-4 pt-4 bg-primary ">
+                      <div class="container">
+                          <div class="row text-center">
+                              <div class=" col-12 col-lg ">
+                                  <a class="text-white" href="index.html">Home</a>
+                              </div>
+                              <div class="col-12 col-lg">
+                                  <a href="sobre_mi.html">Sobre Mi</a>
+                              </div>
+                             
+                              <div class="col-12 col-lg">
+                                  <a href="#">Contactos</a>
+                              </div>
+                             
+                          </div>
+                      </div>
+                  </footer>
+              <!--Fin footer-->
+
+            </div>
+
+            <!--Main Container-->
+
+
+          </div>
+
+          <!-- Optional JavaScript -->
+          <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+          <script src="index.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js "
+            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc "
+            crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
